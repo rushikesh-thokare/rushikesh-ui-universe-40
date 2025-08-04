@@ -32,7 +32,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn", 
-      href: "https://linkedin.com/in/rushikesh-thokare"
+      href: "https://www.linkedin.com/in/rushi-thokare-487148376/"
     },
     {
       icon: Instagram,

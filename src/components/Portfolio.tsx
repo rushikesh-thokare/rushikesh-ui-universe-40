@@ -30,6 +30,21 @@ const Portfolio = () => {
         "Smooth scroll animations",
         "Glassmorphism effects"
       ]
+    },
+    {
+      title: "E-commerce Website",
+      description: "A modern responsive e-commerce website built using web technologies for smooth user experience and product browsing.",
+      tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+      year: "2025",
+      category: "Development",
+      image: "🛒",
+      features: [
+        "Responsive design",
+        "Modern UI/UX",
+        "Product browsing",
+        "Smooth user experience"
+      ],
+      liveUrl: "https://rushi-t.vercel.app/"
     }
   ];
 
@@ -93,7 +108,12 @@ const Portfolio = () => {
               </div>
 
               <div className="flex space-x-3">
-                <Button variant="outline" size="sm" className="hover-glow">
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  className="hover-glow"
+                  onClick={() => project.liveUrl && window.open(project.liveUrl, '_blank')}
+                >
                   <ExternalLink className="mr-2 h-4 w-4" />
                   Live Demo
                 </Button>
